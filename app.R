@@ -40,7 +40,7 @@ ui <- dashboardPage(
     tabItems(
       tabItem(tabName = "sim",
               fluidRow(box(tags$a(href = 'http://alittleanalysis.com/shiny/PlayerSimilarity',
-                              img(src = 'ALittleAnalysisLogo2.png',
+                              img(src = 'Logo-transparent.png',
                                   title = "A Little Analysis", height = "185", width = "300")), width = 12, background = "black")),
               fluidRow(box(selectInput("team", "Select Team:",
                                        choices = teams$player_team), width = 3, background = "black"),
