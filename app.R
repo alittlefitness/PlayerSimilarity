@@ -1,5 +1,4 @@
 library(tidyverse)
-library(ggtext)
 library(shiny)
 library(shinydashboard)
 library(shinyjs)
