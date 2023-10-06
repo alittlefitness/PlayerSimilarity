@@ -227,7 +227,7 @@ server <- function(input, output) {
   
   output$instruct <- renderUI({
     HTML("The Player Similarity app uses a k Nearest Neighbours (kNN) approach to determine the 10 most similar players to the selected player.  
-          All stats have been normalised prior to implementing kNN.  Using the selected player's age in 2022 and the list of selected stats, the algorithm 
+          All stats have been normalised prior to implementing kNN.  Using the selected player's age in 2023 and the list of selected stats, the algorithm 
           looks for players with similar statistics per 100 minutes of time on ground at the same age.  The similarity period is a maximum of 3 seasons 
           providing the selected player has played at least 3 seasons. 
           <br><br> The menus at the top of the page allow you to:
